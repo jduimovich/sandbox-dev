@@ -8,7 +8,7 @@ metadata:
   name: fe
   namespace: jduimovich-dev
 spec:
-  host: fe-jduimovich-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+  host: fe
   port:
     targetPort: 8080
   tls:
