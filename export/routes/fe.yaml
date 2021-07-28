@@ -1,14 +1,11 @@
 apiVersion: route.openshift.io/v1
 kind: Route
-metadata:
-  annotations:
-    openshift.io/host.generated: "true"
+metadata: 
   labels:
     app: haproxy-service
   name: fe
   namespace: jduimovich-dev
-spec:
-  host: fe
+spec: 
   port:
     targetPort: 8080
   tls:
